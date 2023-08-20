@@ -1,0 +1,13 @@
+prefix=/Users/ayushdeolasee/Developer/Working-Applications/predict-stock-market/.conda
+exec_prefix=/Users/ayushdeolasee/Developer/Working-Applications/predict-stock-market/.conda
+libdir=/Users/ayushdeolasee/Developer/Working-Applications/predict-stock-market/.conda/lib
+sharedlibdir=/Users/ayushdeolasee/Developer/Working-Applications/predict-stock-market/.conda/lib
+includedir=/Users/ayushdeolasee/Developer/Working-Applications/predict-stock-market/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

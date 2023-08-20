@@ -1,0 +1,11 @@
+prefix=/Users/ayushdeolasee/Developer/Working-Applications/predict-stock-market/.conda
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/ayushdeolasee/Developer/Working-Applications/predict-stock-market/.conda/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

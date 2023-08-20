@@ -1,0 +1,5 @@
+#!/Users/ayushdeolasee/Developer/Working-Applications/predict-stock-market/.conda/bin/python3.10
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()
